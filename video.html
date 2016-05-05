@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="built.io">
+    <meta name="author" content="raw enginner">
+    <title>MUSIC</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/grid.css" />
+    <link rel="stylesheet" href="css/jquery.flipster.css">
+    <link rel="stylesheet" href="css/music.css">
+    <link rel="stylesheet" href="css/lightbox.css" />
+    <link rel="stylesheet" href="css/theme.css" />
+    <!-- <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" /> -->
+    
+    <style type="text/css">
+    /*make own responsive*/
+    /*-------------------------------------*/
+    </style>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script> -->
+</head>
+
+<body>
+    <div id="outerbox">
+        <div class="close">x</div>
+        <div id="lightbox">
+        </div>
+    </div>
+    <div class=" container">
+        <div class="inner">
+             <header class="clearfix ">
+                <h1 class="col span_3_of_12"><a href="#" class="logo" ><img src="image/logo.png" alt="logo"></a></h1>
+                <div class="col span_5_of_12 logo-name">
+                    <h2><img src="image/music-logo.png" alt=""></h2> </div>
+                <div class="col span_4_of_12  search">
+                    <form action="#" class="search-box">
+                        <button type="submit" class="fm-btn">
+                        </button>
+                        <input type="search" placeholder="Search..." />
+                    </form>
+                </div>
+            </header>
+            <nav class="nav-res">
+                <button class="menu-button">&#9776;</button>
+                <ul class="clearfix">
+                    <li>
+                        <form action="#" class="search-box">
+                            <button type="submit" class="fm-btn">
+                        </button>
+                        <input type="search" placeholder="Search..."/>
+                        </form>
+                    </li>
+                    <li><a href="index.html" >About me</a></li>
+                    <li><a href="picture.html">My pictures</a></li>
+                    <li><a href="music.html">My music</a></li>
+                    <li><a href="file.html">My files</a></li>
+                    <li class="active"><a href="video.html">My videos</a></li>
+                </ul>
+            </nav>
+            <div class="clearfix span_2_of_12 tab">
+                <nav class="nav-tab clearfix">
+                    <ul>
+                        <li class="grid-tab active"><a  href="#">Grid</a></li>
+                        <li class="gallery-tab"><a href="#">Gallery</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="clearfix">
+                <div class="col span_7_of_12">
+                    <video controls>
+                    </video>
+                </div>
+                <div id="musicdesc" class=" music-desc">
+                    <div class="music-thumb"><img src="video/thumbnail/text1.gif" alt=""></div>
+                    <div class="music-detail">
+                        <ul>
+                            <li>
+                                <label class="Track">Track :</label>
+                                <p>text1</p>
+                            </li>
+                            <li>
+                                <label>Artist :</label>
+                                <p class="artist">Himesh</p>
+                            </li>
+                            <li>
+                                <label>Gener :</label>
+                                <p class="gener">Melody</p>
+                            </li>
+                            <li>
+                                <label>size :</label>
+                                <p class="size">2:00</p>
+                            </li>
+                            <li>
+                                <label>Length :</label>
+                                <p class="length">2mb</p>
+                            </li>
+                            <li>
+                                <label>rating :</label>
+                                <p class="rating"><img src="image/star.png" alt=""></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix gallery content">
+                <section class="clearfix grid">
+                    
+                        <ul class="playlist-grid">
+                            <li>
+                                <img class="thumb" data-src="video/videolist/ffa-1-what-is-it.mp4" src="video/thumbnail/text1.gif" alt="" />
+                                <p class="desc">
+                                </p>
+                            </li>
+                            <li>
+                                <img class="thumb" data-src="video/videolist/ffa-2-installation.mp4" src="video/thumbnail/text2.gif" alt="" />
+                                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                                </p>
+                            </li>
+                            <li>
+                                <img class="thumb" data-src="video/videolist/ffa-3-loading-custom-templates.mp4" src="video/thumbnail/text3.gif" alt="" />
+                                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                                </p>
+                            </li>
+                            <li>
+                                <img class="thumb" data-src="video/videolist/ffa-4-using-the-grid.mp4" src="video/thumbnail/text4.gif" alt="" />
+                                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                                </p>
+                            </li>
+                            <li>
+                                <img class="thumb" data-src="video/videolist/ffa-5-placing-foundation-components.mp4" src="video/thumbnail/text5.gif" alt="" />
+                                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                                </p>
+                            </li>
+                            <li>
+                                <img class="thumb" data-src="video/videolist/ffa-6-motion-ui.mp4" src="video/thumbnail/text6.gif" alt=""/>
+                                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                                </p>
+                            </li>
+                            <li>
+                                <img class="thumb" data-src="video/videolist/ffa-7-custom-styling.mp4" src="video/thumbnail/text7.gif" alt=""/>
+                                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                                </p>
+                            </li>
+                            <li>
+                                <img class="thumb" data-src="video/videolist/ffa-8-load-a-custom-controller.mp4" src="video/thumbnail/text8.gif" alt=""/>
+                                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                                </p>
+                            </li>
+                            <li>
+                                <img class="thumb" data-src="video/videolist/ffa-9-new-task-form.mp4" src="video/thumbnail/text9.gif" alt="" />
+                                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                                </p>
+                            </li>
+                            <li>
+                                <img class="thumb" data-src="video/videolist/ffa-10-add-tag-search-filter.mp4" src="video/thumbnail/text10.gif" alt="" />
+                                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                                </p>
+                            </li>
+                            <li>
+                                <img class="thumb" data-src="video/videolist/ffa-11-expanded-description-and-task-editing.mp4" src="video/thumbnail/text11.gif" alt=""/>
+                                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                                </p>
+                            </li>
+                            <li>
+                                <img class="thumb" data-src="video/videolist/ffa-12-setting-task-colors.mp4" src="video/thumbnail/text12.gif" alt="" />
+                                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                                </p>
+                            </li>
+                            <li>
+                                <img class="thumb" data-src="video/videolist/ffa-13-task-status-and-delete.mp4" src="video/thumbnail/text13.gif" alt="" />
+                                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                                </p>
+                            </li>
+                            <li>
+                                <img class="thumb" data-src="video/videolist/ffa-14-packaging-your-app.mp4" src="video/thumbnail/text14.gif" alt="" />
+                                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                                </p>
+                            </li>
+                        </ul>
+                   
+                </section>
+                <section class="slider">
+                    <div id="carousel">
+                        <ul class="flip-items playlist-grid">
+                            <li>
+                                <img class="thumb" data-src="video/videolist/ffa-1-what-is-it.mp4" src="video/thumbnail/text1.gif" alt="" />
+                            </li>
+                            <li>
+                                <img class="thumb" data-src="video/videolist/ffa-2-installation.mp4" src="video/thumbnail/text2.gif" alt="" />
+                            </li>
+                            <li>
+                                <img class="thumb" data-src="video/videolist/ffa-3-loading-custom-templates.mp4" src="video/thumbnail/text3.gif"  alt=""/>
+                            </li>
+                            <li>
+                                <img class="thumb" data-src="video/videolist/ffa-4-using-the-grid.mp4" src="video/thumbnail/text4.gif" alt="" />
+                            </li>
+                            <li>
+                                <img class="thumb" data-src="video/videolist/ffa-5-placing-foundation-components.mp4" src="video/thumbnail/text5.gif" alt="" />
+                            </li>
+                            <li>
+                                <img class="thumb" data-src="video/videolist/ffa-6-motion-ui.mp4" src="video/thumbnail/text6.gif" alt=""/>
+                            </li>
+                            <li>
+                                <img class="thumb" data-src="video/videolist/ffa-7-custom-styling.mp4" src="video/thumbnail/text7.gif" alt=""/>
+                            </li>
+                            <li>
+                                <img class="thumb" data-src="video/videolist/ffa-8-load-a-custom-controller.mp4" src="video/thumbnail/text8.gif" alt=""/>
+                            </li>
+                            <li>
+                                <img class="thumb" data-src="video/videolist/ffa-9-new-task-form.mp4" src="video/thumbnail/text9.gif" alt=""/>
+                            </li>
+                            <li>
+                                <img class="thumb" data-src="video/videolist/ffa-10-add-tag-search-filter.mp4" src="video/thumbnail/text10.gif" alt=""/>
+                            </li>
+                            <li>
+                                <img class="thumb" data-src="video/videolist/ffa-11-expanded-description-and-task-editing.mp4" src="video/thumbnail/text11.gif" alt=""/>
+                            </li>
+                            <li>
+                                <img class="thumb" data-src="video/videolist/ffa-12-setting-task-colors.mp4" src="video/thumbnail/text12.gif" alt=""/>
+                            </li>
+                            <li>
+                                <img class="thumb" data-src="video/videolist/ffa-13-task-status-and-delete.mp4" src="video/thumbnail/text13.gif" alt=""/>
+                            </li>
+                            <li>
+                                <img class="thumb" data-src="video/videolist/ffa-14-packaging-your-app.mp4" src="video/thumbnail/text14.gif" alt="" />
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="clearfix span_12_of_12 music-desc music-desc-center">
+                        <div class="music-detail music-detail-center">
+                            <ul>
+                                <li>
+                                    <label class="Track">Track :</label>
+                                    <p>text1</p>
+                                </li>
+                                <li>
+                                    <label>Artist :</label>
+                                    <p class="artist">Himesh</p>
+                                </li>
+                                <li>
+                                    <label>Gener :</label>
+                                    <p class="gener">Melody</p>
+                                </li>
+                                <li>
+                                    <label>size :</label>
+                                    <p class="size">2:00</p>
+                                </li>
+                                <li>
+                                    <label>Length :</label>
+                                    <p class="length">2mb</p>
+                                </li>
+                                <li>
+                                    <label>rating :</label>
+                                    <p class="rating"><img src="image/star.png" alt=""></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <footer class="clearfix">
+                <div class="offset_3_of_12 col span_6_of_12">
+                    
+                    <p class="copyright"><a href="#"><img src="image/mini-logo.png" alt=""></a>Copyright &copy; 2012 My Website.All rights reserved</p>
+                    <div class="link-social ">
+                        <ul class="clearfix">
+                            <li class="menu effect">
+                               <a href="#" target="_blank"> <img class="icon-full" src="image/blogger.png." alt="" /></a>
+                            </li>
+                            <li class="menu effect">
+                               <a href="#" target="_blank">  <img class="icon-full" src="image/facebook.png" alt="" /></a>
+                            </li>
+                            <li class="menu effect">
+                               <a href="#" target="_blank">  <img class="icon-full" src="image/digg.png" alt="" /></a>
+                            </li>
+                            <li class="menu effect">
+                               <a href="#" target="_blank">  <img class="icon-full" src="image/linkendin.png" alt="" /></a>
+                            </li>
+                            <li class="menu effect">
+                               <a href="#" target="_blank">  <img class="icon-full" src="image/slam.png" alt="" /></a>
+                            </li>
+                            <li class="menu effect">
+                               <a href="#" target="_blank">  <img class="icon-full" src="image/twitter.png" alt="" /></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <ul class="col span_3_of_12">
+                    <li><a href="#">EULA</a></li>
+                    <li><a href="#">Terms Of Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </footer>
+        </div>
+    </div>
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/jquery.flipster.js" type="text/javascript"></script>
+    <script src="js/video.js" type="text/javascript"></script>
+    <script>
+    </script>
+</body>
+
+</html>

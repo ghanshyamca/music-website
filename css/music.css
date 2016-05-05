@@ -1,0 +1,107 @@
+li {
+    list-style: none;
+}
+
+.music-desc {
+    overflow: hidden;
+    float: right;
+    margin-top: 12px;
+}
+
+.music-thumb {
+    float: left;
+    margin-right: 15px;
+    /* width:180px;
+        height:99px;*/
+}
+
+.music-thumb img {
+    border: 1px solid white;
+    max-width: 200px;
+}
+
+.music-detail {
+    float: right;
+    width: 252px;
+}
+
+.music-detail label {
+    width: 33%;
+    float: left;
+}
+
+.music-detail p {
+    display: block;
+    width: 67%;
+    float: right;
+}
+
+.music-detail li:last-child p {
+    /*background: url("../image/star.png") no-repeat;*/
+    /* background-size: initial; */
+    /*width: 130px;*/
+    /*height: 15px;*/
+}
+
+.music-detail>ul>li {
+    line-height: 24px;
+}
+
+
+/*for list of music*/
+
+.list table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    background: rgb(54, 25, 25);
+    background: rgba(37, 34, 34, 0.5);
+    border: 1px solid white;
+}
+
+td,
+th {
+    width: 0.5%;
+    padding: 5px 20px;
+}
+
+th {
+    text-align: left;
+}
+
+td:nth-child(2) {
+    cursor: pointer;
+}
+
+.shadow {
+    -webkit-box-shadow: 0 0 50px white;
+    box-shadow: 0 0 50px white;
+}
+
+.music-detail-center {
+    margin: 0px auto;
+    overflow: hidden;
+    padding-left:  40px;
+    float: none;
+    /* margin: 0px auto; */
+    width: 252px;
+}
+
+.music-desc-center {
+    float: none;
+    /*margin: 16px 35%;*/
+    /*margin: 16px 55px;*/
+    padding: 16px;
+}
+
+.audio-center {
+    margin: 26px auto;
+}
+
+audio {
+    width: 100%;
+}
+
+.video-center {
+    margin-left: 38%;
+    /*margin:25px;*/
+}

@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="built.io">
+    <meta name="author" content="raw enginner">
+    <title>MUSIC</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/grid.css" />
+    <link rel="stylesheet" href="css/jquery.flipster.css">
+    <link rel="stylesheet" href="css/theme.css" />
+    <!-- <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" /> -->
+    <link rel="stylesheet" href="css/lightbox.css" />
+    <link rel="stylesheet" href="css/music.css">
+    <style type="text/css">
+    /*make own responsive*/
+    /*-------------------------------------*/
+    </style>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script> -->
+</head>
+
+<body>
+    <div class=" container">
+        <div class="inner">
+             <header class="clearfix ">
+                <h1 class="col span_3_of_12"><a href="#" class="logo" ><img src="image/logo.png" alt="logo"></a></h1>
+                <div class="col span_5_of_12 logo-name">
+                    <h2><img src="image/music-logo.png" alt=""></h2> </div>
+                <div class="col span_4_of_12  search">
+                    <form action="#" class="search-box">
+                        <button type="submit" class="fm-btn">
+                        </button>
+                        <input type="search" placeholder="Search..." />
+                    </form>
+                </div>
+            </header>
+            <nav class="nav-res">
+                <button class="menu-button">&#9776;</button>
+                <ul class="clearfix">
+                    <li>
+                        <form action="#" class="search-box">
+                            <button type="submit" class="fm-btn">
+                        </button>
+                        <input type="search" placeholder="Search..."/>
+                        </form>
+                    </li>
+                    <li><a href="index.html" >About me</a></li>
+                    <li><a href="picture.html">My pictures</a></li>
+                    <li class="active"><a href="music.html">My music</a></li>
+                    <li><a href="file.html">My files</a></li>
+                    <li><a href="video.html">My videos</a></li>
+                </ul>
+            </nav>
+            <div class="clearfix span_3_of_12 tab music-tab">
+                <nav class="nav-tab clearfix">
+                    <ul>
+                        <li class="grid-tab active"><a  href="#">Grid</a></li>
+                        <li class="list-tab"><a  href="#">List</a></li>
+                        <li class="gallery-tab"><a href="#">Gallery</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="clearfix gallery content">
+                <div id="musicdesc" class="span_5_of_12 music-desc">
+                    <div class="music-thumb"><img src="audio/thumbnail/Aashiq Banaya.jpg" alt=""></div>
+                    <div class="music-detail">
+                        <ul>
+                            <li>
+                                <label class="Track">Track :</label>
+                                <p>Aashiq Banaya.mp3</p>
+                            </li>
+                            <li>
+                                <label>Artist :</label>
+                                <p class="artist">Himesh</p>
+                            </li>
+                            <li>
+                                <label>Gener :</label>
+                                <p class="gener">Melody</p>
+                            </li>
+                            <li>
+                                <label>size :</label>
+                                <p class="size">2:00</p>
+                            </li>
+                            <li>
+                                <label>Length :</label>
+                                <p class="length">2mb</p>
+                            </li>
+                            <li>
+                                <label>rating :</label>
+                                <p class="rating"><img src="image/star.png" alt=""></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="contain span_7_of_12" id="audio-tag">
+                    <audio controls>
+                    </audio>
+                </div>
+                <section class="grid">
+                   
+                        <ul class="playlist-grid">
+                            <li>
+                                <img class="thumb" data-src="audio/audiolist/Aashiq Banaya.mp3" src="audio/thumbnail/Aashiq Banaya.jpg" alt="" />
+                                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                                </p>
+                            </li>
+                            <li>
+                                <img class="thumb" data-src="audio/audiolist/agar tum.mp3" src="audio/thumbnail/agar tum.jpg" alt="" />
+                                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                                </p>
+                            </li>
+                            <li>
+                                <img class="thumb" data-src="audio/audiolist/Bezubaan.mp3" src="audio/thumbnail/Bezubaan.jpg"  alt=""/>
+                                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                                </p>
+                            </li>
+                            <li>
+                                <img class="thumb" data-src="audio/audiolist/Bhar Do Jholi.mp3" src="audio/thumbnail/Bhar Do Jholi.jpg" alt=""/>
+                                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                                </p>
+                            </li>
+                            <li>
+                                <img class="thumb" data-src="audio/audiolist/Deewani Mastani.mp3" src="audio/thumbnail/Deewani Mastani.jpg" alt=""/>
+                                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                                </p>
+                            </li>
+                            <li>
+                                <img class="thumb" data-src="audio/audiolist/Gajanana.mp3" src="audio/thumbnail/Gajanana.jpg" alt=""/>
+                                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                                </p>
+                            </li>
+                            <li>
+                                <img class="thumb" data-src="audio/audiolist/Gerua.mp3" src="audio/thumbnail/Gerua.jpg" alt=""/>
+                                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                                </p>
+                            </li>
+                            <li>
+                                <img class="thumb" data-src="audio/audiolist/Ghani Bhawri.mp3" src="audio/thumbnail/Ghani Bhawri.jpg" alt="" />
+                                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                                </p>
+                            </li>
+                            <li>
+                                <img class="thumb" data-src="audio/audiolist/Malhari.mp3" src="audio/thumbnail/Malhari.jpg" alt="" />
+                                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                                </p>
+                            </li>
+                            <li>
+                                <img class="thumb" data-src="audio/audiolist/Manma Emotion.mp3" src="audio/thumbnail/Manma Emotion.jpg" alt="" />
+                                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                                </p>
+                            </li>
+                            <li>
+                                <img class="thumb" data-src="audio/audiolist/Samandar.mp3" src="audio/thumbnail/Samandar.jpg" alt="" />
+                                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                                </p>
+                            </li>
+                            <li>
+                                <img class="thumb" data-src="audio/audiolist/Selfie Le Le.mp3" src="audio/thumbnail/Selfie Le Le.jpg" alt="" />
+                                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                                </p>
+                            </li>
+                            <li>
+                                <img class="thumb" data-src="audio/audiolist/Tu Jaane Na.mp3" src="audio/thumbnail/Tu Jaane Na.jpg" alt="" />
+                                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                                </p>
+                            </li>
+                            <li>
+                                <img class="thumb" data-src="audio/audiolist/Tumhe Apna.mp3" src="audio/thumbnail/Tumhe Apna.jpg" alt="" />
+                                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                                </p>
+                            </li>
+                        </ul>
+                    
+                </section>
+                <section class="slider">
+                    <div id="carousel">
+                        <ul class="flip-items playlist-grid">
+                            <li>
+                                <img class="thumb" data-src="audio/audiolist/Aashiq Banaya.mp3" src="audio/thumbnail/Aashiq Banaya.jpg" alt="" />
+                            </li>
+                            <li>
+                                <img class="thumb" data-src="audio/audiolist/agar tum.mp3" src="audio/thumbnail/agar tum.jpg" alt=""/>
+                            </li>
+                            <li>
+                                <img class="thumb" data-src="audio/audiolist/Bezubaan.mp3" src="audio/thumbnail/Bezubaan.jpg" alt=""/>
+                            </li>
+                            <li>
+                                <img class="thumb" data-src="audio/audiolist/Bhar Do Jholi.mp3" src="audio/thumbnail/Bhar Do Jholi.jpg" alt=""/>
+                            </li>
+                            <li>
+                                <img class="thumb" data-src="audio/audiolist/Deewani Mastani.mp3" src="audio/thumbnail/Deewani Mastani.jpg" alt="" />
+                            </li>
+                            <li>
+                                <img class="thumb" data-src="audio/audiolist/Gajanana.mp3" src="audio/thumbnail/Gajanana.jpg" alt="" />
+                            </li>
+                            <li>
+                                <img class="thumb" data-src="audio/audiolist/Gerua.mp3" src="audio/thumbnail/Gerua.jpg" alt=""/>
+                            </li>
+                            <li>
+                                <img class="thumb" data-src="audio/audiolist/Ghani Bhawri.mp3" src="audio/thumbnail/Ghani Bhawri.jpg" alt="" />
+                            </li>
+                            <li>
+                                <img class="thumb" data-src="audio/audiolist/Malhari.mp3" src="audio/thumbnail/Malhari.jpg" alt="" />
+                            </li>
+                            <li>
+                                <img class="thumb" data-src="audio/audiolist/Manma Emotion.mp3" src="audio/thumbnail/Manma Emotion.jpg"  alt=""/>
+                            </li>
+                            <li>
+                                <img class="thumb" data-src="audio/audiolist/Samandar.mp3" src="audio/thumbnail/Samandar.jpg" alt="" />
+                            </li>
+                            <li>
+                                <img class="thumb" data-src="audio/audiolist/Selfie Le Le.mp3" src="audio/thumbnail/Selfie Le Le.jpg" alt=""/>
+                            </li>
+                            <li>
+                                <img class="thumb" data-src="audio/audiolist/Tu Jaane Na.mp3" src="audio/thumbnail/Tu Jaane Na.jpg" alt="" />
+                            </li>
+                            <li>
+                                <img class="thumb" data-src="audio/audiolist/Tumhe Apna.mp3" src="audio/thumbnail/Tumhe Apna.jpg" alt=""/>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="clearfix span_12_of_12 music-desc music-desc-center">
+                        <div class="music-detail music-detail-center">
+                            <ul>
+                                <li>
+                                    <label class="Track">Track :</label>
+                                    <p>Track4</p>
+                                </li>
+                                <li>
+                                    <label>Artist :</label>
+                                    <p class="artist">Himesh</p>
+                                </li>
+                                <li>
+                                    <label>Gener :</label>
+                                    <p class="gener">Melody</p>
+                                </li>
+                                <li>
+                                    <label>size :</label>
+                                    <p class="size">2:00</p>
+                                </li>
+                                <li>
+                                    <label>Length :</label>
+                                    <p class="length">2mb</p>
+                                </li>
+                                <li>
+                                    <label>rating :</label>
+                                    <p class="rating"><img src="image/star.png" alt=""></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section class="list">
+                    <TABLE>
+                        <tr>
+                            <th>No</th>
+                            <th>Status</th>
+                            <th>audio Name</th>
+                            <th>Artist</th>
+                            <th>Gener</th>
+                            <th>Length</th>
+                            <th>Size</th>
+                            <th>Rating</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td class="thumb" data-src="audio/audiolist/Aashiq Banaya.mp3">Play</td>
+                            <td>Aashiq Banaya.mp3</td>
+                            <td>Artist Name 1</td>
+                            <td>Gener Type 1</td>
+                            <td>5:23</td>
+                            <td>6.2mb</td>
+                            <td>****</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td class="thumb" data-src="audio/audiolist/agar tum.mp3">Play</td>
+                            <td>agar tum.mp3</td>
+                            <td>Artist Name 2</td>
+                            <td>Gener Type 2</td>
+                            <td>5:23</td>
+                            <td>6.2mb</td>
+                            <td>****</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td class="thumb" data-src="audio/audiolist/Bezubaan.mp3">Play</td>
+                            <td>Bezubaan.mp3</td>
+                            <td>Artist Name 3</td>
+                            <td>Gener Type 3</td>
+                            <td>5:23</td>
+                            <td>6.2mb</td>
+                            <td>****</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td class="thumb" data-src="audio/audiolist/Bhar Do Jholi.mp3">Play</td>
+                            <td>Bhar Do Jholi.mp3</td>
+                            <td>Artist Name 4</td>
+                            <td>Gener Type 4</td>
+                            <td>5:23</td>
+                            <td>6.2mb</td>
+                            <td>****</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td class="thumb" data-src="audio/audiolist/Deewani Mastani.mp3">Play</td>
+                            <td>Deewani Mastani.mp3</td>
+                            <td>Artist Name 5</td>
+                            <td>Gener Type 5</td>
+                            <td>5:23</td>
+                            <td>6.2mb</td>
+                            <td>****</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td class="thumb" data-src="audio/audiolist/Gajanana.mp3">Play</td>
+                            <td>Gajanana.mp3</td>
+                            <td>Artist Name 6</td>
+                            <td>Gener Type 6</td>
+                            <td>5:23</td>
+                            <td>6.2mb</td>
+                            <td>****</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td class="thumb" data-src="audio/audiolist/Gerua.mp3">Play</td>
+                            <td>Gerua.mp3</td>
+                            <td>Artist Name 7</td>
+                            <td>Gener Type 7</td>
+                            <td>5:23</td>
+                            <td>6.2mb</td>
+                            <td>****</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td class="thumb" data-src="audio/audiolist/Ghani Bhawri.mp3">Play</td>
+                            <td>Ghani Bhawri.mp3</td>
+                            <td>Artist Name 8</td>
+                            <td>Gener Type 8</td>
+                            <td>5:23</td>
+                            <td>6.2mb</td>
+                            <td>****</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td class="thumb" data-src="audio/audiolist/Malhari.mp3">Play</td>
+                            <td>Malhari.mp3</td>
+                            <td>Artist Name 9</td>
+                            <td>Gener Type 9</td>
+                            <td>5:23</td>
+                            <td>6.2mb</td>
+                            <td>****</td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td class="thumb" data-src="audio/audiolist/Manma Emotion.mp3">Play</td>
+                            <td>Manma Emotion.mp3</td>
+                            <td>Artist Name 10</td>
+                            <td>Gener Type 10</td>
+                            <td>5:23</td>
+                            <td>6.2mb</td>
+                            <td>****</td>
+                        </tr>
+                        <tr>
+                            <td>11</td>
+                            <td class="thumb" data-src="audio/audiolist/Samandar.mp3">Play</td>
+                            <td>Samandar.mp3</td>
+                            <td>Artist Name 11</td>
+                            <td>Gener Type 11</td>
+                            <td>5:23</td>
+                            <td>6.2mb</td>
+                            <td>****</td>
+                        </tr>
+                        <tr>
+                            <td>12</td>
+                            <td class="thumb" data-src="audio/audiolist/Selfie Le Le.mp3">Play</td>
+                            <td>Selfie Le Le.mp3</td>
+                            <td>Artist Name 12</td>
+                            <td>Gener Type 12</td>
+                            <td>5:23</td>
+                            <td>6.2mb</td>
+                            <td>****</td>
+                        </tr>
+                        <tr>
+                            <td>13</td>
+                            <td class="thumb" data-src="audio/audiolist/Tu Jaane Na.mp3">Play</td>
+                            <td>Tu Jaane Na.mp3</td>
+                            <td>Artist Name 13</td>
+                            <td>Gener Type 13</td>
+                            <td>5:23</td>
+                            <td>6.2mb</td>
+                            <td>****</td>
+                        </tr>
+                        <tr>
+                            <td>14</td>
+                            <td class="thumb" data-src="audio/audiolist/Tumhe Apna.mp3">Play</td>
+                            <td>Tumhe Apna.mp3</td>
+                            <td>Artist Name 14</td>
+                            <td>Gener Type 14</td>
+                            <td>5:23</td>
+                            <td>6.2mb</td>
+                            <td>****</td>
+                        </tr>
+                    </TABLE>
+                </section>
+            </div>
+             <footer class="clearfix">
+                <div class="offset_3_of_12 col span_6_of_12">
+                    
+                    <p class="copyright"><a href="#"><img src="image/mini-logo.png" alt=""></a>Copyright &copy; 2012 My Website.All rights reserved</p>
+                    <div class="link-social ">
+                        <ul class="clearfix">
+                            <li class="menu effect">
+                               <a href="#" target="_blank"> <img class="icon-full" src="image/blogger.png." alt="" /></a>
+                            </li>
+                            <li class="menu effect">
+                               <a href="#" target="_blank">  <img class="icon-full" src="image/facebook.png" alt="" /></a>
+                            </li>
+                            <li class="menu effect">
+                               <a href="#" target="_blank">  <img class="icon-full" src="image/digg.png" alt="" /></a>
+                            </li>
+                            <li class="menu effect">
+                               <a href="#" target="_blank">  <img class="icon-full" src="image/linkendin.png" alt="" /></a>
+                            </li>
+                            <li class="menu effect">
+                               <a href="#" target="_blank">  <img class="icon-full" src="image/slam.png" alt="" /></a>
+                            </li>
+                            <li class="menu effect">
+                               <a href="#" target="_blank">  <img class="icon-full" src="image/twitter.png" alt="" /></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <ul class="col span_3_of_12">
+                    <li><a href="#">EULA</a></li>
+                    <li><a href="#">Terms Of Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </footer>
+        </div>
+    </div>
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/jquery.flipster.js" type="text/javascript"></script>
+    <script src="js/music-toggle.js" type="text/javascript"></script>
+    <script>
+    </script>
+</body>
+
+</html>

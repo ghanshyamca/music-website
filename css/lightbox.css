@@ -1,0 +1,84 @@
+.grid .desc {
+    display: none;
+}
+
+.grid ul {
+    list-style: none;
+}
+
+.grid li {
+    display: inline-block;
+}
+
+.grid li img {
+    width: 223px;
+    height: 137px;
+    /* height: 10%; */
+    /*float: left;*/
+    /*margin: 0.5%;*/
+    cursor: pointer;
+    margin: 7px;
+    border: 1px solid white;
+}
+
+.slider,
+.list {
+    display: none;
+}
+
+#lightbox {
+    position: fixed;
+    /*cursor: pointer;*/
+    width: 51%;
+    height: auto;
+    cursor: pointer;
+    z-index: 1;
+    top: 18%;
+    left: 24%;
+    bottom: 80%;
+    right: 70%;
+}
+
+#lightbox>img {
+    width: 100%;
+    position: relative;
+}
+
+#outerbox {
+    cursor: pointer;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    display: none;
+}
+
+.fade-background {
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+#lightbox>p {
+    display: block;
+}
+
+.close {
+    position: fixed;
+    /* float: right; */
+    /* cursor: pointer; */
+    width: 32px;
+    /* padding: 0px; */
+    /* padding-top: 0px; */
+    border: 3px double white;
+    height: 32px;
+    /* font-weight: bold; */
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 5;
+    color: white;
+    background: #c85051;
+    border-radius: 27px;
+    text-align: -webkit-center;
+    top: 16%;
+    bottom: 80%;
+    right: 24%
+}
